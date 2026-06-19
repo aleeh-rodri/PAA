@@ -47,6 +47,7 @@ int main() {
         cout << "2. Executar Modulo BFS" << endl;
         cout << "3. Executar DFS com Memoization (DP)" << endl;
         cout << "4. Executar Tratamento de Ciclos SCC (Tarjan)" << endl;
+        cout << "5. Executar Warshall com Matriz de Adjacencia" << endl;
         cout << "8. Exibir Grafo Original" << endl;
         cout << "0. Sair" << endl;
         cout << "Escolha uma opcao: ";
@@ -77,6 +78,12 @@ int main() {
                 printGrafo("Grafo Original", listaAdjCiclo);
                 resultado = reducaoTransitivaTarjan(V2, listaAdjCiclo);
                 printGrafo("Resultado: Tratamento de Ciclos SCC (Tarjan)", resultado);
+                break;
+
+            case 5:
+                printGrafo("Grafo Original", listaAdj);
+                resultado = reducaoWarshall(V, listaAdj);
+                printGrafo("Resultado: Warshall com Matriz de Adjacencia", resultado);
                 break;
 
             case 8:
