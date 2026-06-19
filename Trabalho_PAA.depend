@@ -1,0 +1,39 @@
+# depslib dependency file v1.0
+1781123759 source:c:\users\gabriel\onedrive\documents\trabalho_paa\trabalho_paa\dfs.cpp
+	"algoritmos.h"
+	<iostream>
+	<algorithm>
+
+1781883002 c:\users\gabriel\onedrive\documents\trabalho_paa\trabalho_paa\algoritmos.h
+	<vector>
+	<string>
+
+1781883441 source:c:\users\gabriel\onedrive\documents\trabalho_paa\trabalho_paa\main.cpp
+	<iostream>
+	"algoritmos.h"
+
+1781643786 source:c:\users\gabriel\onedrive\documents\trabalho_paa\trabalho_paa\abordagens\dfs.cpp
+	"../algoritmos.h"
+	<iostream>
+	<algorithm>
+
+1781555649 source:c:\users\gabriel\onedrive\documents\trabalho_paa\trabalho_paa\abordagens\bfs.cpp
+	"../algoritmos.h"
+	<iostream>
+	<algorithm>
+	<queue>
+
+1781642979 source:c:\users\gabriel\onedrive\documents\trabalho_paa\trabalho_paa\abordagens\dfsmemoizationdp.cpp
+	"../algoritmos.h"
+	<iostream>
+	<algorithm>
+
+1781883113 source:c:\users\gabriel\onedrive\documents\trabalho_paa\trabalho_paa\abordagens\tarjanscc.cpp
+	"../algoritmos.h"
+	<iostream>
+	<vector>
+	<stack>
+	<algorithm>
+	<map>
+	<set>
+
