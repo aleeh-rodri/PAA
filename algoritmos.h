@@ -12,5 +12,6 @@ std::vector<std::vector<int>> reducaoTransitivaMemoization(int V, const std::vec
 std::vector<std::vector<int>> reducaoTransitivaTarjan(int V, const std::vector<std::vector<int>>& adj);
 // novo
 std::vector<std::vector<int>> reducaoWarshall(int V, const std::vector<std::vector<int>>& adj);
+std::vector<std::vector<int>> reducaoDFSTopologica(int V, const std::vector<std::vector<int>>& adj);
 
 #endif

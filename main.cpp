@@ -48,7 +48,8 @@ int main() {
         cout << "3. Executar DFS com Memoization (DP)" << endl;
         cout << "4. Executar Tratamento de Ciclos SCC (Tarjan)" << endl;
         cout << "5. Executar Warshall com Matriz de Adjacencia" << endl;
-        cout << "8. Exibir Grafo Original" << endl;
+        cout << "8. Executar DFS Topologica para DAG" << endl;
+        cout << "9. Exibir Grafo Original" << endl;
         cout << "0. Sair" << endl;
         cout << "Escolha uma opcao: ";
         cin >> opcao;
@@ -87,6 +88,12 @@ int main() {
                 break;
 
             case 8:
+                printGrafo("Grafo Original", listaAdj);
+                resultado = reducaoDFSTopologica(V, listaAdj);
+                printGrafo("Resultado: DFS Topologica para DAG", resultado);
+                break;
+
+            case 9:
                 printGrafo("Grafo Original", listaAdj);
                 break;
 
